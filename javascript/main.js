@@ -7,8 +7,14 @@ let nombre= counter.innerHTML
 
 boutonIncrease.addEventListener('click',()=>{
     console.log("coucou")
-    nombre +=1
-    counter.innerHTML = nombre
+    if(nombre==0){
+        nombre=1
+        counter.innerHTML = nombre
+    }else {
+        nombre +=1
+        counter.innerHTML = nombre
+    }
+
 })
 
 boutonDecrease.addEventListener('click',()=>{
