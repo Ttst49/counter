@@ -1,0 +1,36 @@
+body{
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.titre{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(34, 37, 119, 0.76);
+    font-weight: bolder;
+
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.button{
+    color: rgb(0, 0, 0);
+    background-color: white;
+    border: black 1px solid;
+}
+
+.button:hover{
+    background-color: black;
+    color: white;
+    border: white 1px solid;
+}
+
